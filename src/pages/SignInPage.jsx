@@ -105,7 +105,7 @@ class SignInPage extends React.Component {
         <div className="row">
           <div className="col text-center">
             <button onClick={this.handleSwapForm} className="btn btn-secondary">
-              already have an account?
+		{ this.state.isLogin ? "Don't have an account" : "Already have an account?" }
             </button>
           </div>
         </div>

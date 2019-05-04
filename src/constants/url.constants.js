@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:4000/api/v1";
+const API_URL = "http://hanspistor.com:4000/api/v1";
 
 const urlConstants = {
   TWEET_URL: `${API_URL}/tweets`,
